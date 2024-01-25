@@ -57,16 +57,14 @@ using std::right;
 using std::setprecision;
 using std::setw;
 
-// TODO: 1.1 Declare a named constant ROSTER_SIZE initialized to the integer value 10.
+const int ROSTER_SIZE{10}; // TODO: 1.1 Declare a named constant ROSTER_SIZE initialized to the integer value 10.
+
+const int NUM_COURSES{3}; // TODO: 1.3 Declare a named constant NUM_COURSES initialized to the integer value of 3.
+
+double grades[ROSTER_SIZE]; // TODO: 1.2 Declare an array named as specified whose size is ROSTER_SIZE that stores floating-point numbers (e.g., double)
 
 
-// TODO: 1.3 Declare a named constant NUM_COURSES initialized to the integer value of 3.
-
-
-// TODO: 1.2 Declare an array named as specified whose size is ROSTER_SIZE that stores floating-point numbers (e.g., double)
-
-
-// TODO: 1.4 Declare a two-dimensional array as specified that has NUM_COURSES rows and ROSTER_SIZE columns that
+double gradeBook[NUM_COURSES][ROSTER_SIZE}; // TODO: 1.4 Declare a two-dimensional array as specified that has NUM_COURSES rows and ROSTER_SIZE columns that
 //  stores floating point numbers (e.g., double)
 
 
